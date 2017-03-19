@@ -1,0 +1,82 @@
+/*General rules*/
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  background: white;
+  border: 2px solid #eee;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  /*rounded corners*/
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  /*animation*/
+  -webkit-transition: All 0.9s ease;
+  -moz-transition: All 0.9s ease;
+  -o-transition: All 0.9s ease;
+  -ms-transition: All 0.9s ease;
+  transition: All 0.9s ease;
+}
+
+img {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.credits {
+  width: 10vw;  
+}
+/*Images topography*/
+img.air1 {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+}
+img.booking1 {
+  position: fixed;
+  right: 25px;
+  top: 65px;
+  width: 20px;
+  height: auto;
+}
+/*end of images topography*/
+button:hover img {
+  display: none;
+}
+/*button rules*/
+.button1 {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+.button2 {
+  position: fixed;
+  right: 20px;
+  top: 60px;
+}
+.button1:hover,
+.button2:hover {
+    width: 100px;    
+}
+button:hover span {
+  display:inline-block;
+}
+span.air,
+span.booking {
+  display:none;
+  text-align: left;
+}
+
+
